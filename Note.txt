@@ -4,3 +4,6 @@
 -- tải thêm (npm install cors  dotenv bcrypt cookie-parser jsonwebtoken)
 
 -- tao account MongoDB sau ddos lấy link bỏ vào .env để connect vào MongoDB
+
+
+-- tai thunderclient == postman

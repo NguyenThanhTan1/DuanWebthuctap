@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        minlength: 8,
+        minlength: 6,
     },
     admin: {
         type: Boolean,
@@ -27,7 +27,8 @@ const userSchema = new mongoose.Schema({
     },
 
 
-}, {timestamps: true}  // user dc tao va update khi nao
+}, 
+    {timestamps: true}  // user dc tao va update khi nao
 
 );
 
