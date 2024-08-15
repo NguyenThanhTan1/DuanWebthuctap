@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const authRoute = require('./routes/auth');
+const userRoute = require('./routes/User');
 
 dotenv.config(); // dòng này có thể xài .env connect vào mongoDB
 
@@ -29,6 +30,7 @@ app.use(express.json()); //
 
 // ROUTES
 app.use("/v1/auth", authRoute);
+app.use("/v1/user", userRoute);
 
 
 app.listen(PORT,() => {
@@ -36,6 +38,7 @@ app.listen(PORT,() => {
 
 });  
 
-// AUTHENTICATION SS CAI USER PASS TREN NGUOI DUNG NHAP VA DATABASE
+// AUTHENTICATION SS CAI USER PASS TREN NGUOI DUNG NHAP VA DATABASE 
 //AUTHOIRIZATION  AI LA NGUOI CO QUYEN`
 
+//JSON WEBTOKEN

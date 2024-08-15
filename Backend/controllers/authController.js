@@ -1,4 +1,5 @@
 const User = require("../models/user"); // Đảm bảo rằng tên model là 'User'
+const jwt = require("jsonwebtoken");
 const bcrypt = require('bcrypt');
 
 const authController = {
@@ -33,29 +34,34 @@ const authController = {
 
     //LOGIN 
     loginUser: async (req, res) => {
-       try {
-            const user = await User.findOne({username: req.body.username});
-            if(!user) {
-                res.status(404).json('Wrong username!');
+        try {
+            const user = await User.findOne({ username: req.body.username });
+            if (!user) {
+                return res.status(404).json('Wrong username!');
             }
-            const validPassword = await bcrypt.compare(
-                req.body.password,
-                 user.password
-            );
-
-            if(!validPassword) {
-                res.status(404).json( 'Wrong password!');
+            const validPassword = await bcrypt.compare(req.body.password, user.password);
+            if (!validPassword) {
+                return res.status(404).json('Wrong password!');
             }
 
             const userWithoutPassword = { ...user._doc };
             delete userWithoutPassword.password;
 
-            res.status(200).json(userWithoutPassword);
+            const accessToken = jwt.sign(
+                {
+                    id: user._id,
+                    admin: user.admin,
+                },
+                process.env.JWT_ACCESS_KEY,
+                { expiresIn: "30d" }  // mã token sẽ hết hạn sau 30 giây
+            );
 
-       } catch (error) {
+            res.status(200).json({ user: userWithoutPassword, accessToken });
+
+        } catch (error) {
             console.error("Lỗi đăng nhập người dùng:", error);
             res.status(500).json({ message: 'Lỗi server nội bộ', error: error.message });
-       }
+        }
     },
 };
 

@@ -7,3 +7,5 @@
 
 
 -- tai thunderclient == postman
+ĐẦU TIÊN TẠO REGISTER VÀ LOGIN
+SAU ĐÓ TẠO MDETHOID GET USER && DELETE USER
