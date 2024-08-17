@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: yellow;
+}
+
+body {
+    color: #fff;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+.banner-header {
+    width: 100%;
+    height: 101px;
+    display: flex;
+}
+
+.row-header {
+    width: 100%;
+}
+
+.banner-header-logo {
+    width: 100%;
+    height: 75%;
+    background-color: #0349b2;
+}
+
+.banner-header-logo {
+    width: 107%;
+    height: 70%;
+    /*  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);*/
+    background-color: #0349b2;
+    padding-left: 50%;
+}
+
+.banner-header-logo-img {
+    width: 88%;
+    height: 100%;
+
+}
+
+.banner-header-logo-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-header-logo-bottom {
+    width: 97%;
+    height: 30%;
+    /* clip-path: polygon(0 0, 100% 0, calc(100% - 23px) 100%, 0% 100%);*/
+    background-color: #b81e1f;
+}
+
+.banner-header-top {
+    width: 102.5%;
+    height: 20%;
+    background-color: #0349b2;
+    display: flex;
+    /* clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%);*/
+    position: relative;
+    right: 6px;
+    /* Dịch chuyển sang phải */
+}
+
+.text {
+    width: 30%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.Banner-login {
+    width: 20%;
+    height: 100%;
+    margin: 0 0 0 490px;
+    display: flex;
+
+}
+
+.log-in {
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.log-in a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.log-out {
+    width: 50%;
+    cursor: pointer;
+}
+
+.log-out a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner-header-top p {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-header-top-bottom {
+    width: 109%;
+    height: 80%;
+    background-color: #b81e1f;
+    clip-path: polygon(55px 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    right: 63px;
+}
+
+.background-header-top {
+    width: 135%;
+    height: 20%;
+    background-color: #0349b2;
+    position: relative;
+    right: 10px;
+}
+
+.background-header-bottom {
+    width: 136%;
+    height: 80%;
+    background-color: #b81e1f;
+    position: relative;
+    right: 11px;
+}
+
+.banner-header-top-bottom-main {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner-header-top-bottom-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 15PX;
+}
+
+.banner-header-top-bottom-main a p:hover {
+    color: var(--primary-color);/
+}
+
+/*div {
+    border: 1px solid black;
+
+}*/
+
+.banner-background {
+    height: 550px;
+    border: 1px solid #B81E1F;
+    position: relative;
+}
+
+.background-img {
+    width: 100%;
+    height: 85%;
+    background-image: url(/Backgroung_main_all.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: 100%;
+}
+
+.Logo-NameLeague {
+
+    height: 25%;
+    display: flex;
+}
+
+.Logo {
+    width: 12%;
+    height: 125%;
+    border: 1px solid #BBBBBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 25px;
+
+}
+
+.Logo-img {
+    width: 90%;
+    height: 90%;
+}
+
+.Logo-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Name {
+    width: 20%;
+}
+
+.Name h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.menu-league {
+    width: 70%;
+    height: 10%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.menu-league li a {
+    color: #B81E1F;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+
+.team-item {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.team-item-1 {
+    width: 10%;
+    height: 110px;
+    margin-top: 5px;
+    border-radius: 50%;
+
+}
+
+.team-item-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.banner-content {
+    height: 500px;
+    background-color: #C0C0C0;
+    display: flex;
+}
+
+.row-content {
+    height: 100%;
+}
+
+.title {
+    margin-top: 30px;
+    height: 15%;
+    background-color: #B81E1F;
+}
+
+.title h4 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.next-match {
+    height: 100%;
+}
+
+.countdown {
+    height: 25%;
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+}
+
+.countdown span {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(circle, #660099, rgba(102, 0, 153, 0) 70%);
+    ;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    border-bottom: 2px solid #B81E1F;
+    font-family: 'Arial', sans-serif;
+}
+
+.Day::after {
+    content: 'Day';
+    display: block;
+    font-size: 16px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.Hour::after {
+    content: 'Hour';
+    display: block;
+    font-size: 16px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.Minute::after {
+    content: 'Minute';
+    display: block;
+    font-size: 16px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.Second::after {
+    content: 'Second';
+    display: block;
+    font-size: 16px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.commans {
+    height: 25%;
+    border-bottom: 2px solid #B81E1F;
+    background-color: #252b32;
+    display: flex;
+}
+
+.command {
+    width: 40%;
+}
+
+.command-logo {
+    width: 60px;
+    height: 60px;
+    margin: 15px 0 0 50px;
+    border: 1px solid #b81e1f;
+
+}
+
+.command-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.command h6 {
+    font-size: 15px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.command_vs {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-info {
+    height: 20%;
+    background-color: #333;
+}
+
+.match-info p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.match-info h6 {
+    text-align: center;
+    margin-top: -10px;
+}
+
+/*div {
+    border: 1px solid black;
+
+}*/
+
+.calendars {
+    height: 28%;
+    margin-top: 20px;
+
+
+}
+
+.calendar-command {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: #252b32;
+    border-bottom: 2px solid #B81E1F;
+}
+
+.team-logo {
+    width: 40px;
+    height: 40px;
+    margin: 15px 0 0 20px;
+    border: 1px solid #B81E1F;
+}
+
+.team-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-name p {
+    padding: 25px 0 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.calendar_vs h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 0 10px;
+}
+
+.calendar-info {
+    height: 50%;
+    background-color: #333;
+}
+
+.calendar-info p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.calendar-info h6 {
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.wbp-tab {
+
+    height: 6%;
+    margin-top: 6px;
+    background-color: #333;
+
+}
+
+.wbp-tab p {
+    text-align: center;
+    padding-top: 5px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.wbp-tab-kq {
+    height: 10%;
+    margin-top: 25px;
+    background-color: #333;
+}
+
+.wbp-tab-kq p {
+    text-align: center;
+    padding-top: 15px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.title-clearfix {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid #B81E1F;
+}
+
+.title-match {
+    width: 25%;
+    height: 100%;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    background-color: #B81E1F;
+    margin: 0;
+    padding: 10px 0 0 30px;
+}
+
+
+.title-match h1 {
+    font-size: 25px;
+    font-family: Open Sans Condensed Light;
+}
+.selecst-round{
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+.select-round-1 {
+    float: right; 
+    margin-left: auto; 
+}
+.table-match table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+.title-match-communication{
+    width: 40%;
+    height: 100%;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 100% 100%, 0 100%);
+    background-color: #B81E1F;
+    margin: 0;
+    padding: 10px 0 0 30px;
+    
+}
+
+.title-match-communication h1{
+    font-size: 25px;
+}
+.table-match thead {
+    background-color: #252b32; 
+    color: #fff; 
+}
+
+.table-match th, .table-match td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-match th.longest {
+    width: 15%; 
+}
+
+.table-match th:nth-child(2) {
+    width: 15%; 
+}
+
+.table-match th:nth-child(3) {
+    width: 40%;
+}
+
+.table-match th:nth-child(4) {
+    width: 30%;
+}
+
+.table-match tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-match td {
+    font-family: Arial, sans-serif;
+    color: #252b32; 
+}
+.Introduction{
+    height: 450px;
+    padding-top: 20px;
+}
+.Introduction-title{
+    height: 40px;
+}
+.Introduction-title h6{
+    color:black;
+    font-size: 30px;
+}
+.Introduction p{
+    color: gray;
+    
+}
+.highlight-color{
+    color: black;
+    font-weight: bold;
+}
+.title-match-top{
+    width: 45%;
+    height: 100%;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 100% 100%, 0 100%);
+    background-color: #B81E1F;
+    margin: 0;
+    padding: 10px 0 0 15px;
+}
+.title-match-top h5{
+   font-size: 20px;
+}
+.see-more{
+    background-color: #252b32;
+    text-align: center;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: #B81E1F;
+    
+}
+.club-classs{
+    height: 115px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #B5B5B5;
+    background-color: #e0eefd;
+}
+.football-groups{
+    height: 30px;
+    display: flex;
+}
+.background-color{
+    width: 15px;
+    height: 15px;
+    margin: 8px 0 0 10px;
+}
+.club-classs h6{
+    margin: 5px 0 0 10px;
+    color: black;
+    font-weight: bold;
+}
+.football-groups-text{
+    width: 70%;
+    height: 100%;
+    padding: 5px 0 0 5px;
+}
+.football-groups-text p{
+    color: black;
+}
+.banner-end {
+    height: 155px;
+    background-color: #3f729b;
+    margin-top: 30px;
+
+}
+
+.banner-end.visible {
+    display: block;
+    opacity: 1;
+}
+
+.banne-dowload-logo {
+    width: 34px;
+    height: 100%;
+}
+
+.banne-dowload-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-end-info {
+    height: 100%;
+}
+
+.banner-end-info p {
+    margin: 7px 0 0 0;
+}

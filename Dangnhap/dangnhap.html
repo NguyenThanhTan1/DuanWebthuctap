@@ -40,7 +40,23 @@
         </form>
       
       </div>
-      <script src="./dangnhap.js"></script>
+      
 </body>
+<script src="./dangnhap.js"></script>
+<script>  document.addEventListener('DOMContentLoaded', function () {
+  Validator({
+    form: '#form-1',
+    formGroupSelector: '.form-group',
+    errorSelector: '.form-message',
+    rules: [
+      Validator.isRequired('#email', 'Vui lòng nhập email của bạn'),
+      Validator.isRequired('#password', 'Vui lòng nhập mật khẩu của bạn'),
+      Validator.minLength('#password', 6, 'Mật khẩu phải có ít nhất 6 ký tự')
+    ],
+    onSubmit: function (data) {
+      console.log(data);
+    }
+  });
+});</script>
 
 </html>

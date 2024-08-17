@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --primary-color: yellow;
+}
+
+body {
+    color: #fff;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+.banner-header {
+    width: 100%;
+    height: 101px;
+    display: flex;
+}
+
+.row-header {
+    width: 100%;
+}
+
+.banner-header-logo {
+    width: 100%;
+    height: 75%;
+    background-color: #0349b2;
+}
+
+.banner-header-logo {
+    width: 107%;
+    height: 70%;
+    /*  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);*/
+    background-color: #0349b2;
+    padding-left: 50%;
+}
+
+.banner-header-logo-img {
+    width: 88%;
+    height: 100%;
+
+}
+
+.banner-header-logo-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-header-logo-bottom {
+    width: 97%;
+    height: 30%;
+   
+    background-color: #b81e1f;
+}
+/*div {
+    border: 1px solid black;
+
+}   */
+.banner-header-top {
+    width: 102.5%;
+    height: 20%;
+    background-color: #0349b2;
+    display: flex;
+    
+    position: relative;
+    right: 6px;
+    
+}
+
+.text {
+    width: 30%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.Banner-login {
+    width: 20%;
+    height: 100%;
+    margin: 0 0 0 490px;
+    display: flex;
+
+}
+
+.log-in {
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.log-in a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.log-out {
+    width: 50%;
+    cursor: pointer;
+}
+
+.log-out a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner-header-top p {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-header-top-bottom {
+    width: 109%;
+    height: 80%;
+    background-color: #b81e1f;
+    clip-path: polygon(55px 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    right: 63px;
+}
+
+.background-header-top {
+    width: 135%;
+    height: 20%;
+    background-color: #0349b2;
+    position: relative;
+    right: 10px;
+}
+
+.background-header-bottom {
+    width: 136%;
+    height: 80%;
+    background-color: #b81e1f;
+    position: relative;
+    right: 11px;
+}
+
+.banner-header-top-bottom-main {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner-header-top-bottom-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 15PX;
+}
+
+.banner-header-top-bottom-main a p:hover {
+    color: var(--primary-color);/
+}
+.banner-background {
+    height: 550px;
+    border: 1px solid #B81E1F;
+    position: relative;
+}
+.background-img {
+    width: 100%;
+    height: 85%;
+    background-image: url(/ManchesterUnited/background-Clb.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: 100%;
+}
+.Logo-NameTeam {
+
+    height: 25%;
+    display: flex;
+}
+
+.Logo {
+    width: 12%;
+    height: 125%;
+    border: 1px solid #BBBBBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 25px;
+
+}
+
+.Logo-img {
+    width: 90%;
+    height: 90%;
+}
+
+.Logo-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Name {
+    width: 30%;
+}
+
+.Name h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+.menu-Team {
+    width: 50%;
+    height: 10%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.menu-Team li a {
+    color: #B81E1F;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+
+.person-img {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.person-img-1 {
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 50%;
+
+}
+.diagram{
+    width: 85%;
+    height: 650px;
+    padding-top: 50px;
+
+    
+}
+.formation {
+    width: 80px;
+    height: 40px;
+    margin-left: auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    
+    }
+
+.select-round-1 {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+.person-img-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.formation-4-3-3 {
+    position: relative;
+    height: 500px;
+    background-color: #34a853;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #B81E1F;
+}
+.name-mu {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4); 
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+  .name-logo{
+   width: 40px ;
+   height: 40px;
+   margin: 5px 0 0 5px
+}
+.name-mu p{
+    margin: 10px 0 0 25px;
+}
+.name-logo img{
+    width: 100%;
+    height: 100%;
+} 
+.name-mu p{
+    margin: 10px 0 0 25px;
+}
+
+.Name-Mu{
+   height: 70px;
+}
+.forward{
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    padding: 0 0 0 15%;
+}
+.forward-lw{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.forward-lw p{
+    text-align: center;
+    margin-top: 15px;
+}
+.forward-st{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    background-color: #B81E1F;
+}
+.forward-st p{
+    text-align: center;
+    margin-top: 15px;
+}
+.forward-rw{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.forward-rw p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.midfield{
+   height: 100px;
+   margin-top: 20px;
+   display: flex;
+   padding: 0 0 0 15%;
+
+}
+.midfield-lm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.midfield-lm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.midfield-cm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    background-color: #B81E1F;
+}
+.midfield-cm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.midfield-rm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.midfield-rm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense
+{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 25px;
+}
+.defense-lb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+}
+.defense-lb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense-cb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin-left: 120px;
+}
+.defense-cb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense-rb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin-left: 120px;
+}
+.defense-rb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.goalkeeper{
+    width: 30%;
+    height: 60px;
+    margin: 20px 0 0 35%;
+    border-left: 5px solid white;
+    border-right:5px solid white ;
+    border-top: 5px solid white;
+
+ 
+} 
+.goalkeeper-gk{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin: -12px 0 0 80px;
+
+}
+.goalkeeper-gk p{
+    text-align: center;
+    margin-top: 15px;
+}
+.coatch-captain{
+    height: 75px ;
+    background-color: #BBBBBB;
+}
+.coatch{
+    height:25px ;
+}
+.captain{
+    height: 25px;
+}
+.stadium{
+    height: 25px;
+}
+.coatch-captain p{
+    color: #6f6464;
+}
+.color{
+    color: black;
+    font-weight: bold;
+}
+.Introduction{
+    height: 800px;
+    padding-top: 50px;
+    
+}
+.Introduction-name{
+    height: 30px;
+}
+.Introduction-name h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.Introduction-mu{
+    height: 100%;
+    background-color: #d8ebeb;
+    border: 1px solid #6f6464;
+}
+.Introduction-Logo{
+    height: 280px;
+}
+.Introduction-Logo img{
+    width: 100%;
+    height: 100%;
+}
+.highlight-color{
+    color: black;
+    font-weight: bold;
+}
+.Introduction p{
+    color: gray;
+    
+}.Introduction p a{
+    text-decoration: none;
+    
+}
+.Introduction-shirt{
+    height: 300px;
+
+}
+.Introduction-shirt-img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.Introduction-shirt-text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.Home{
+    width: 34%;
+}
+.Home img{
+    width: 100%;
+    height: 100%;
+}
+.guest img{
+    width: 100%;
+    height: 100%;
+}
+.guest img{
+    width: 100%;
+    height: 100%;
+}
+.Three{
+    width: 33%;
+}
+.guest{
+    width: 33%;
+}
+.Home p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.Home p a{
+    text-decoration: none;
+}
+.guest p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.guest p a{
+    text-decoration: none;
+}
+.Three p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.Three p a{
+    text-decoration: none;
+}
+.Introduction-stadium{
+    height: 280px;
+    margin-top: 25px;
+}
+.Introduction-stadium img{
+    width: 100%;
+    height: 100%;
+}
+   /* div {
+    border: 1px solid black;
+
+}*/
+.player-title{
+    height: 50px;
+}
+.title-clearfix {
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid #B81E1F;
+}
+
+.title-player{
+    width: 40%;
+    height: 100%;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 100% 100%, 0 100%);
+    background-color: #B81E1F;
+    margin: 0;
+    padding: 10px 0 0 30px;
+    
+}
+.table-player {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 400px; 
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid black; 
+}
+.player td{
+    color: black    ;
+
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e9e9e9;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .table-player {
+        width: 100%;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    td {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+.contact{
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    background-image: url(/ManchesterUnited/Background_conttac.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+.QuanLy{
+    width: 31%;
+    height: 170px;
+    background-color: white;
+    
+}
+.QuanLy-icon{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0 0 105px;
+}
+.QuanLy-icon i{
+    color: #b81e1f;
+    font-size: 50px;
+}
+.QuanLy-text{
+    width: 250px;
+    height: 40px;
+    margin: 5px 0 0 3px ;
+}
+.QuanLy-text p{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+.Phone{
+    width: 31%;
+    height: 170px;
+    background-color: white;
+    margin-left: 25px;
+}
+.Email{
+    width: 31%;
+    height: 170px;
+    background-color: white;
+    margin-left: 25px;
+}
+
+.banner-end {
+    height: 155px;
+    background-color: #3f729b;
+    margin-top: 30px;
+
+}
+
+.banner-end.visible {
+    display: block;
+    opacity: 1;
+}
+
+.banne-dowload-logo {
+    width: 34px;
+    height: 100%;
+}
+
+.banne-dowload-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-end-info {
+    height: 100%;
+}
+
+.banner-end-info p {
+    margin: 7px 0 0 0;
+}
