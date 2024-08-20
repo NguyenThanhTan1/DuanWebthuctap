@@ -1,3 +1,11 @@
+window.addEventListener('scroll', function() {
+    var bannerEnd = document.querySelector('.banner-end');
+    if (window.scrollY > 100) { 
+        bannerEnd.classList.add('visible');
+    } else {
+        bannerEnd.classList.remove('visible');
+    }
+});
 
 const modal = document.getElementById('confirmation-modal');
 const followBtn = document.getElementById('follow-btn');
