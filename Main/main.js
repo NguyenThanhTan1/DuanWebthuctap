@@ -6,3 +6,8 @@ window.addEventListener('scroll', function() {
         bannerEnd.classList.remove('visible');
     }
 });
+
+
+
+
+

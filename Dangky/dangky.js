@@ -130,6 +130,36 @@ function Validator(options) {
     }
 
 }
+// dang ky luu vao localstorage
+
+function dangky(event) {
+    event.preventDefault();
+
+    var username = document.getElementById('fullname').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var password_confirmation = document.getElementById('password_confirmation').value;
+
+    // Kiểm tra nếu mật khẩu và xác nhận mật khẩu không khớp
+    if (password !== password_confirmation) {
+        alert('Mật khẩu và xác nhận mật khẩu không khớp!');
+        return;
+    }
+
+    var user = {
+        username: username,
+        email: email,
+        password: password
+    };
+
+    // Kiểm tra xem email đã tồn tại trong localStorage hay chưa
+    
+        localStorage.setItem(username, JSON.stringify(user));
+        alert('Đăng ký thành công!');
+
+}
+
+
 
 
 
