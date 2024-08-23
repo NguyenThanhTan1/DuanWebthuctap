@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: yellow;
+}
+
+body {
+    color: #fff;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    position: relative;
+    
+}
+
+.banner-header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.row-header {
+    width: 100%;
+}   
+.banner-header-logo{
+    width: 100%;
+    height: 75%;
+    background-color: #0349b2;
+}
+.banner-header-logo {
+    width:107%;
+    height: 70%;  
+  /*  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);*/
+    background-color: #0349b2; 
+    padding-left: 50%;
+}
+.banner-header-logo-img{
+    width:88%;
+    height: 100%; 
+    
+}
+.banner-header-logo-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-header-logo-bottom{
+    width: 97%;
+  height: 30%;
+ /* clip-path: polygon(0 0, 100% 0, calc(100% - 23px) 100%, 0% 100%);*/
+  background-color: #b81e1f;
+}
+
+.banner-header-top{
+    width: 102.5%;
+    height: 30%;
+    background-color: #0349b2;
+    display: flex;
+   /* clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%);*/
+    position: relative;
+    right: 6px; /* Dịch chuyển sang phải */
+}
+.text{
+     width: 30%;
+     height: 100%;
+     padding-left: 15px;
+     padding-top: 5px;
+}
+.Banner-login{
+    width: 20%;
+    height: 100%;
+    margin: 0 0 0 490px;
+    display: flex;
+    
+}
+.icon-User{
+    width: 33px;
+    height: 30px;
+    border: 1px solid #b81e1f;
+    margin-top: 2px;
+}
+.icon-User i{
+  font-size: 30px;
+  text-align: center;
+}
+.Name-User{
+    width: 150px;
+    height: 25px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.Name-User p{
+    font-weight: bold;
+}
+.banner-header-top p {
+    margin: 0;
+    padding: 0;
+}
+.banner-header-top-bottom{
+    width: 109%;
+    height: 80%;
+    background-color: #b81e1f;
+      clip-path: polygon(55px 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    right: 63px;
+}
+.background-header-top{
+    width: 135%;
+    height: 28%;
+    background-color: #0349b2;
+    position: relative;
+    right: 10px;
+}
+.background-header-bottom{
+    width: 136%;
+    height: 72%;
+    background-color: #b81e1f;
+    position: relative;
+    right: 11px;
+}
+.banner-header-top-bottom-main {
+    width: 100%;
+    height: 100%;
+    margin:10px 0 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.banner-header-top-bottom-main  a{
+    text-decoration: none;
+    color: white;
+    font-size: 15PX;
+}
+.banner-header-top-bottom-main a p:hover {
+    color: var(--primary-color); /
+}
+.followers {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid #b81e1f;
+
+}
+.followers a{
+    text-decoration: none;
+}
+.followers a p{
+    color: #b81e1f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 250px; 
+    text-align: center;
+}
+.modal-content p{
+    color: black;
+}
+
+.modal-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#confirm-yes {
+    background-color: #28a745;
+    color: white;
+}
+
+#confirm-no {
+    background-color: #dc3545;
+    color: white;
+}
+.banner-search {
+    min-height: 300px;
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-title {
+    width: 63%;
+    height: 70px;
+    transform: translateY(-30px);
+
+}
+
+.search-title h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-text {
+    width: 70%;
+    height: 40px;
+    display: flex;
+}
+
+.input {
+    width: 96%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.icon-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    width: 4%;
+    background-color: #FF9900;
+
+}
+
+.icon-search a i {
+    font-size: 28px;
+    color: #333;
+    padding-top: 8px;
+}
+
+.banner-main-top1 {
+    height: 400px;
+}
+
+.top1-NgoaiHangAnh {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-NHA {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-NHA img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top1-Laliga {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Laliga {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Laliga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top1-Bundesliga {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Bundesliga {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Bundesliga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top1-SerieA {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-SerieA {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-SerieA img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*div {
+    border: 1px solid black;
+
+}*/
+.banner-main-top2 {
+    height: 400px;
+}
+
+.top2-VLeague {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Vleague {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Vleague img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top2-Lique1 {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Lique1 {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Lique1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top2-Eredivisie {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Eredivisie {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Eredivisie img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top1-ThaiLeague1 {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-ThaiLeague1 {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-ThaiLeague1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.banner-main-top3 {
+    height: 400px;
+}
+
+.top3-BoDaoNha {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-BDN {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-BDN img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top3-Brazil {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Brazil {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Brazil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top3-Argentina {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Argentina {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Argentina img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top3-NhatBan {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-NhatBan {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-NhatBan img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.banner-main-top4 {
+    height: 400px;
+}
+
+.top4-Nga {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Nga {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Nga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top4-Han {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Han {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Han img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top4-Arap {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Arap {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Arap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top4-Tau {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Tau {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Tau img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.banner-main-top5 {
+    height: 400px;
+}
+
+.top5-Tho {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Tho {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Tho img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top5-Uruguay {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Uruguay {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Uruguay img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top5-Bi {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Bi {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Bi img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top5-Scotland {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Scotland {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Scotland img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.banner-main-top6 {
+    height: 400px;
+}
+
+.top6-Mexico {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Mexico {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Mexico img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top6-Ukraine {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Ukraine {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.Logo-Ukraine img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top6-Thuysi {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Thuysi {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Thuysi img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top6-Uc {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo-Uc {
+    width: 35%;
+    height: 90px;
+    margin: -50px 0 0 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.Logo-Uc img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*div {
+    border: 1px solid black;
+
+}*/
+
+.background {
+    height: 29%;
+    background-image: url(Backgroung_main_all.jpg);
+}
+
+.name {
+    height: 50px;
+}
+
+.name P {
+    color: #b81e1f;
+    font-size: 20PX;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.year {
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+
+.year p {
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    margin: 8px 0 0 0;
+
+}
+
+.time {
+    width: 83%;
+    height: 25px;
+    display: flex;
+    margin-left: 10%;
+}
+
+.time-icon {
+    width: 10%;
+    color: #999999;
+    text-align: center;
+}
+
+.calendar {
+    width: 90%;
+}
+
+.calendar p {
+    color: #999999;
+}
+
+.footer-rotate {
+    margin-top: auto;
+    height: 50px;
+    display: flex;
+}
+
+.count-clb {
+    width: 50%;
+    background-color: #ffbe00;
+    display: flex;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.count-clb-main {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    margin: 15px 0 0 10px;
+}
+
+.clb-text {
+    width: 70%;
+    height: 100%;
+
+}
+
+.clb-icon {
+    width: 30%;
+    height: 100%;
+}
+
+.count-clb i {
+    font-size: 25px;
+}
+
+.count-clb p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.info-league {
+    width: 50%;
+    background-color: #b81e1f;
+    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+    cursor: pointer;
+}
+
+.info-league-main {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    margin: 15px 0 0 25px;
+}
+
+.info-text {
+    width: 75%;
+}
+
+.info-text p {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.info-icon {
+    width: 25%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.banner-end{
+    height: 155px;  
+    background-color: #b81e1f;
+    display: none; 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+   
+}
+.banner-end.show {
+    display: block;
+    transform: translateY(0); 
+    opacity: 1;
+}
+
+.banner-end.hide {
+    transform: translateY(100%); 
+    opacity: 0;
+}
+
+
+.banne-dowload{
+    height: 34px;
+}
+.banne-dowload-logo{
+    width: 34px;
+    height: 100%;
+}
+.banne-dowload-logo img{
+    width: 100%;
+    height: 100%;
+}
+.banner-end-info{
+    height: 100%;
+}
+.banner-end-info p{
+    margin: 7px 0 0 0;
+}

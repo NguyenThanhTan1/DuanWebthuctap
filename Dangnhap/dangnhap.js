@@ -144,7 +144,7 @@ function login(event){
     }
     else if(username == data.username && password == data.password){
         alert("Đăng nhập thành công!");
-        window.location.href ="/redirect/form.html";
+        window.location.href ="/Main_login/Main_login.html";
     }
     else{
         alert("Dang nhap that bai!");
