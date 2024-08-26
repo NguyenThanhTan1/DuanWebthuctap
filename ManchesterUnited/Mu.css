@@ -282,192 +282,189 @@ body {
     border-radius: 50%;
 
 }
-    .formation-4-3-3 {
-        position: relative;
-        height: 500px;
-        background-color: #34a853;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        border: 1px solid #B81E1F;
-    }
-    .name-mu {
-        font-size: 18px;
-        font-weight: bold;
-        color: #fff;
-        background-color: rgba(0, 0, 0, 0.4); 
-        width: 100%;
-        height: 50px;
-        position: absolute;
-        top: 0;
-        display: flex;
-    }
-    .name-logo{
-    width: 40px ;
-    height: 40px;
-    margin: 5px 0 0 5px
-    }
-    .name-mu p{
-        margin: 10px 0 0 25px;
-    }
-    .name-logo img{
-        width: 100%;
-        height: 100%;
-    } 
-    .name-mu p{
-        margin: 10px 0 0 25px;
-    }
+.formation-4-3-3 {
+    position: relative;
+    height: 500px;
+    background-color: #34a853;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #B81E1F;
+}
+.name-mu {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4); 
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+  .name-logo{
+   width: 40px ;
+   height: 40px;
+   margin: 5px 0 0 5px
+}
+.name-mu p{
+    margin: 10px 0 0 25px;
+}
+.name-logo img{
+    width: 100%;
+    height: 100%;
+} 
+.name-mu p{
+    margin: 10px 0 0 25px;
+}
 
-    .Name-Mu{
-    height: 70px;
-    }
-    .forward{
-        height: 100px;
-        margin-top: 80px;
-        display: flex;
-        padding: 0 0 0 15%;
-    }
-    .forward-lw{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-top:  35px;
-        background-color: #B81E1F;
-    }
-    .forward-lw p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .forward-st{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin:  0 0 0 30%;
-        background-color: #B81E1F;
-    }
-    .forward-st p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .forward-rw{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin:  0 0 0 30%;
-        margin-top:  35px;
-        background-color: #B81E1F;
-    }
-    .forward-rw p{
-        text-align: center;
-        margin-top: 15px;
-    }
+.Name-Mu{
+   height: 70px;
+}
+.forward{
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    padding: 0 0 0 15%;
+}
+.forward-lw{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.forward-lw p{
+    text-align: center;
+    margin-top: 15px;
+}
+.forward-st{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    background-color: #B81E1F;
+}
+.forward-st p{
+    text-align: center;
+    margin-top: 15px;
+}
+.forward-rw{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.forward-rw p{
+    text-align: center;
+    margin-top: 15px;
+}
 
-    .midfield{
+.midfield{
+   height: 100px;
+   margin-top: 20px;
+   display: flex;
+   padding: 0 0 0 15%;
+
+}
+.midfield-lm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.midfield-lm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.midfield-cm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    background-color: #B81E1F;
+}
+.midfield-cm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.midfield-rm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:  0 0 0 30%;
+    margin-top:  35px;
+    background-color: #B81E1F;
+}
+.midfield-rm p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense
+{
     height: 100px;
     margin-top: 20px;
     display: flex;
-    padding: 0 0 0 15%;
+    padding-left: 10%;
+    padding-top: 25px;
+}
+.defense-lb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+}
+.defense-lb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense-cb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin-left: 120px;
+}
+.defense-cb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.defense-rb{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin-left: 120px;
+}
+.defense-rb p{
+    text-align: center;
+    margin-top: 15px;
+}
+.goalkeeper{
+    width: 30%;
+    height: 60px;
+    margin: 20px 0 0 35%;
+    border-left: 5px solid white;
+    border-right:5px solid white ;
+    border-top: 5px solid white;
 
-    }
-    .midfield-lm{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-top:  35px;
-        background-color: #B81E1F;
-    }
-    .midfield-lm p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .midfield-cm{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin:  0 0 0 30%;
-        background-color: #B81E1F;
-    }
-    .midfield-cm p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .midfield-rm{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin:  0 0 0 30%;
-        margin-top:  35px;
-        background-color: #B81E1F;
-    }
-    .midfield-rm p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .defense
-    {
-        height: 100px;
-        margin-top: 20px;
-        display: flex;
-        padding-left: 11%;
-        padding-top: 25px;
-    }
-    .defense-lb{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: #B81E1F;
-    }
-    .defense-lb p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .defense-cb{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: #B81E1F;
-        margin-left: 120px;
-    }
-    .defense-cb p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .defense-rb{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: #B81E1F;
-        margin-left: 140px;
-    }
-    .defense-rb p{
-        text-align: center;
-        margin-top: 15px;
-    }
-    .goalkeeper{
-        height: 60px;
-        margin-top: 20px;
-        display: flex;
-        padding-left: 39%;
-    }
-    .goalkeeper-gk{
-        width: 35%;
-        padding: 2px 0 0 11%;
-        border-top: 5px solid white;
-        border-left: 5px solid white;
-        border-right: 5px solid white;
-    }
-    .goalkeeper-gk-text{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: #B81E1F;
-        
-    }
-    .goalkeeper-gk-text p{
-        text-align: center;
-        padding-top: 15px;
-    }
+ 
+} 
+.goalkeeper-gk{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B81E1F;
+    margin: -12px 0 0 80px;
 
+}
+.goalkeeper-gk p{
+    text-align: center;
+    margin-top: 15px;
+}
 .coatch-captain{
     height: 75px ;
     background-color: #BBBBBB;
@@ -591,10 +588,10 @@ body {
     width: 100%;
     height: 100%;
 }
-    /*div {
+   /* div {
     border: 1px solid black;
 
-} */  
+}*/
 .player-title{
     height: 50px;
 }

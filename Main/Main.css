@@ -12,138 +12,67 @@ body {
     font-weight: 400;
     overflow-x: hidden !important;
     position: relative;
-    
 }
 
 .banner-header {
     width: 100%;
-    height: 120px;
+    height: 101px;
     display: flex;
 }
 
 .row-header {
     width: 100%;
-}   
-.banner-header-logo{
+}
+
+.banner-header-logo {
     width: 100%;
     height: 75%;
     background-color: #0349b2;
 }
+
 .banner-header-logo {
-    width:107%;
-    height: 70%;  
-  /*  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);*/
-    background-color: #0349b2; 
+    width: 107%;
+    height: 70%;
+    /*  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);*/
+    background-color: #0349b2;
     padding-left: 50%;
 }
-.banner-header-logo-img{
-    width:88%;
-    height: 100%; 
-    
-}
-.banner-header-logo-img img{
-    width: 100%;
+
+.banner-header-logo-img {
+    width: 88%;
     height: 100%;
-}
-.banner-header-logo-bottom{
-    width: 97%;
-  height: 30%;
- /* clip-path: polygon(0 0, 100% 0, calc(100% - 23px) 100%, 0% 100%);*/
-  background-color: #b81e1f;
+
 }
 
-.banner-header-top{
-    width: 102.5%;
-    height: 30%;
-    background-color: #0349b2;
-    display: flex;
-   /* clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%);*/
-    position: relative;
-    right: 6px; /* Dịch chuyển sang phải */
-}
-.text{
-     width: 30%;
-     height: 100%;
-     padding-left: 15px;
-     padding-top: 5px;
-}
-.Banner-login{
-    width: 20%;
-    height: 100%;
-    margin: 0 0 0 490px;
-    display: flex;
-    
-}
-.log-in{
-    width: 50%;
-    cursor: pointer;
-    
-}
-.log-in a {
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-}
-.log-in a p{
-    margin-top: 5px;
-}
-.log-out{
-    width: 50%;
-    cursor: pointer;
-}
-.log-out a{
-    text-align: center;
-    font-size:15px ;
-    text-decoration: none;
-    color: white;
-}
-.log-out a p{
-    margin-top: 5px;
-}
-.banner-header-top p {
-    margin: 0;
-    padding: 0;
-}
-.banner-header-top-bottom{
-    width: 109%;
-    height: 80%;
-    background-color: #b81e1f;
-      clip-path: polygon(55px 0, 100% 0, 100% 100%, 0 100%);
-    position: relative;
-    right: 63px;
-}
-.background-header-top{
-    width: 135%;
-    height: 28%;
-    background-color: #0349b2;
-    position: relative;
-    right: 10px;
-}
-.background-header-bottom{
-    width: 136%;
-    height: 72%;
-    background-color: #b81e1f;
-    position: relative;
-    right: 11px;
-}
-.banner-header-top-bottom-main {
+.banner-header-logo-img img {
     width: 100%;
     height: 100%;
-    margin:10px 0 0 30px;
+}
+
+.banner-header-logo-bottom {
+    width: 97%;
+    height: 30%;
+    /* clip-path: polygon(0 0, 100% 0, calc(100% - 23px) 100%, 0% 100%);*/
+    background-color: #b81e1f;
+}
+
+.banner-header-top {
+    width: 102.5%;
+    height: 20%;
+    background-color: #0349b2;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
+    /* clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%);*/
+    position: relative;
+    right: 6px;
+    /* Dịch chuyển sang phải */
 }
-.banner-header-top-bottom-main  a{
-    text-decoration: none;
-    color: white;
-    font-size: 15PX;
+
+.text {
+    width: 30%;
+    height: 100%;
+    padding-left: 15px;
 }
-.banner-header-top-bottom-main a p:hover {
-    color: var(--primary-color); /
-}
+
 .followers {
     width: 100px;
     height: 30px;
@@ -163,47 +92,90 @@ body {
     margin-top: 5px;
     text-decoration: none;
 }
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
+
+.Banner-login {
+    width: 20%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    margin: 0 0 0 490px;
+    display: flex;
+
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 250px; 
+.log-in {
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.log-in a {
     text-align: center;
-}
-.modal-content p{
-    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
 }
 
-.modal-content button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.log-out {
+    width: 50%;
     cursor: pointer;
 }
 
-#confirm-yes {
-    background-color: #28a745;
+.log-out a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
     color: white;
 }
 
-#confirm-no {
-    background-color: #dc3545;
-    color: white;
+.banner-header-top p {
+    margin: 0;
+    padding: 0;
 }
+
+.banner-header-top-bottom {
+    width: 109%;
+    height: 80%;
+    background-color: #b81e1f;
+    clip-path: polygon(55px 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    right: 63px;
+}
+
+.background-header-top {
+    width: 135%;
+    height: 20%;
+    background-color: #0349b2;
+    position: relative;
+    right: 10px;
+}
+
+.background-header-bottom {
+    width: 136%;
+    height: 80%;
+    background-color: #b81e1f;
+    position: relative;
+    right: 11px;
+}
+
+.banner-header-top-bottom-main {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner-header-top-bottom-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 15PX;
+}
+
+.banner-header-top-bottom-main a p:hover {
+    color: var(--primary-color);/
+}
+
 .banner-search {
     min-height: 300px;
     background-image: url(background.jpg);
@@ -1033,27 +1005,7 @@ body {
 .banner-end{
     height: 155px;  
     background-color: #b81e1f;
-    display: none; 
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000; 
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-   
 }
-.banner-end.show {
-    display: block;
-    transform: translateY(0); 
-    opacity: 1;
-}
-
-.banner-end.hide {
-    transform: translateY(100%); 
-    opacity: 0;
-}
-
-
 .banne-dowload{
     height: 34px;
 }
@@ -1071,5 +1023,3 @@ body {
 .banner-end-info p{
     margin: 7px 0 0 0;
 }
-
-/*Mobile/Taplet*/

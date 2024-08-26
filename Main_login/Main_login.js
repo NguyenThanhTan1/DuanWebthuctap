@@ -7,6 +7,17 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+window.onload = function() {
+    // Lấy thông tin người dùng từ localStorage
+    const currentUser = localStorage.getItem('current_user');
+    console.log('Retrieved current user:', currentUser);
+    document.getElementById('welcome-message').textContent = `Hi, ${currentUser}!`;
+
+    
+};
+
+
 const modal = document.getElementById('confirmation-modal');
 const followBtn = document.getElementById('follow-btn');
 const followBtn2 = document.getElementById('follow-btn-2');
